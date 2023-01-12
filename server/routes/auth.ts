@@ -94,7 +94,7 @@ router.post('/login',
 
 
 router.post('/logout', [isAuthenticated], async (req: Request, res: Response) => {
-  return res.status(200).json('success')
+  return res.status(200).json({ msg: 'success' })
 })
 
 export default router

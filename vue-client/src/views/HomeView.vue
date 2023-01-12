@@ -1,5 +1,13 @@
 <template>
-  <ButtonGrid />
+  <v-app>
+    <v-main>
+      <v-container>
+        <v-layout align-center justify-center>
+          <ButtonGrid />
+        </v-layout>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>

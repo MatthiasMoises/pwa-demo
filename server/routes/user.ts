@@ -102,7 +102,7 @@ router.delete('/:id', [isAuthenticated], async (req: Request, res: Response) => 
   })
 
   res.status(200).json({
-    msg: 'deleted'
+    msg: 'User deleted'
   })
 })
 
