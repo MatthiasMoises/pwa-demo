@@ -1,0 +1,101 @@
+# REACT
+
+# dependencies
+react-client/node_modules
+react-client/.pnp
+react-client/.pnp.js
+
+# testing
+react-client/coverage
+
+# production
+react-client/build
+
+# misc
+react-client/.DS_Store
+react-client/.env.local
+react-client/.env.development.local
+react-client/.env.test.local
+react-client/.env.production.local
+
+react-client/npm-debug.log*
+react-client/yarn-debug.log*
+react-client/yarn-error.log*
+
+
+# VUE
+
+vue-client/.DS_Store
+vue-client/node_modules
+vue-client/dist
+
+
+# local env files
+vue-client/.env.local
+vue-client/.env.*.local
+
+# Log files
+vue-client/npm-debug.log*
+vue-client/yarn-debug.log*
+vue-client/yarn-error.log*
+vue-client/pnpm-debug.log*
+
+# Editor directories and files
+vue-client/.idea
+vue-client/.vscode
+vue-client/*.suo
+vue-client/*.ntvs*
+vue-client/*.njsproj
+vue-client/*.sln
+vue-client/*.sw?
+
+
+# ANGULAR
+
+# Compiled output
+angular-client/dist
+angular-client/tmp
+angular-client/out-tsc
+angular-client/bazel-out
+
+# Node
+angular-client/node_modules
+angular-client/npm-debug.log
+angular-client/yarn-error.log
+
+# IDEs and editors
+angular-client/.idea/
+angular-client/.project
+angular-client/.classpath
+angular-client/.c9/
+angular-client/*.launch
+angular-client/.settings/
+angular-client/*.sublime-workspace
+
+# Visual Studio Code
+angular-client/.vscode/*
+angular-client/!.vscode/settings.json
+angular-client/!.vscode/tasks.json
+angular-client/!.vscode/launch.json
+angular-client/!.vscode/extensions.json
+angular-client/.history/*
+
+# Miscellaneous
+angular-client/.angular/cache
+angular-client/.sass-cache/
+angular-client/connect.lock
+angular-client/coverage
+angular-client/libpeerconnection.log
+angular-client/testem.log
+angular-client/typings
+
+# System files
+angular-client/.DS_Store
+angular-client/Thumbs.db
+
+
+# SERVER
+
+server/node_modules
+server/dist
+server/prisma/database.db
